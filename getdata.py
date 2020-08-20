@@ -18,6 +18,7 @@ def TestConnection():
         return False
 
 def GetData(data):
+    # change data.country to your country
     data.country = "Slovakia"
     
     covid = Covid()
